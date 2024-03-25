@@ -181,7 +181,7 @@ namespace PERFECT_CACHE
 
                 void GetInput() {
                         KeyT NewElem;
-                        std::cout << "Input Elements";
+
                         for (size_t i = 0; i < input_size_; i++) {
                                 std::cin >> NewElem;
                                 if (!std::cin.good())                                        throw std::runtime_error{ "Bad input: wrong Key" };
